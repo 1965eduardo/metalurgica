@@ -1,0 +1,6 @@
+{
+  "name": "Metalúrgica Fardin",
+  "description": "Site institucional e catálogo de produtos da Metalúrgica Fardin Ltda, peças e implementos agrícolas desde 1983.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

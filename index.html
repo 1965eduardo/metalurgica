@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metalúrgica Fardin | Soluções Precisas para o Agronegócio</title>
+    <meta name="description" content="Site institucional e catálogo de produtos da Metalúrgica Fardin Ltda, peças e implementos agrícolas com qualidade e precisão desde 1983." />
+    <meta property="og:title" content="Metalúrgica Fardin | Soluções Precisas para o Agronegócio" />
+    <meta property="og:description" content="Site institucional e catálogo de produtos da Metalúrgica Fardin Ltda, peças e implementos agrícolas desde 1983." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var cached = localStorage.getItem('site_content_cache');
+          if (cached) {
+            var data = JSON.parse(cached);
+            if (data.site_theme) {
+              var t = JSON.parse(data.site_theme);
+              if (t.primary) {
+                document.documentElement.style.setProperty('--theme-primary', t.primary);
+                document.documentElement.style.setProperty('--bg-pill-active', t.primary);
+              }
+              if (t.text_main) document.documentElement.style.setProperty('--theme-title', t.text_main);
+              if (t.text_muted) document.documentElement.style.setProperty('--theme-body', t.text_muted);
+              if (t.bg_main) document.documentElement.style.setProperty('--theme-bg', t.bg_main);
+              if (t.bg_card) document.documentElement.style.setProperty('--theme-card', t.bg_card);
+              if (t.bg_nav) document.documentElement.style.setProperty('--theme-nav', t.bg_nav);
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#1A1D20] text-[#F8F9FA] antialiased selection:bg-[#B82020] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
